@@ -587,7 +587,9 @@ def show_part3():
 }
 
     st.table(lightgbm_evaluation_metrics)
-
+    st.title("Challenges:")
+    st.write("Older papers tend to accumulate more citations compared to newer papers simply due to having more time to be cited.Test sets containing newer papers may have lower citation counts compared to what the model expects based on historical data.Certain topics may become more popular over time, while others may decline in interest. The model trained on historical data may struggle to predict citations for topics that were not popular during the training period.")
+    st.write("Test data may include new research topics or keywords that were not present during the training phase.The model cannot infer the importance or future citation potential of these novel concepts since they were not seen in the training set.Test data may include new researchers with no prior publication history in the training set.Author-related features may not generalize to new authors, leading to poor predictions.")
     
     
 
