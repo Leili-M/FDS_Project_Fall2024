@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-    st.set_page_config(page_title="My Streamlit App", layout="wide")
+    st.set_page_config(page_title="FDS Project Report", layout="wide")
     
     st.sidebar.title("Menu")
     page = st.sidebar.radio("Go to", ["PART1", "PART2", "PART3"])
